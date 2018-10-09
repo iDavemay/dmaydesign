@@ -1,0 +1,33 @@
+.arrow-link {
+    position: relative;
+    padding:8px 2px;
+    font-weight:600;
+
+    &__icon {
+        position: relative;
+        margin-left:10px;
+        transition:all 0.2s ease;
+    }
+
+    &:hover &__icon {
+        transform:translateX(5px);
+    }
+
+    &:after {
+        content:"";
+        position: absolute;
+        bottom:0;
+        left:0;
+        height:2px;
+        width:100%;
+        display: block;
+    }
+
+    &--white {
+        color:#fff;
+    }
+
+    &--white:after {
+        background-color:#fff;
+    }
+}

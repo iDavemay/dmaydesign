@@ -1,5 +1,5 @@
 body {
-    font-size:16px;
+    font-size:18px;
     color:#000;
     font-family: $primaryFont;
 }
@@ -15,4 +15,8 @@ a:hover {
 
 img {
     max-width:100%;
+}
+
+::selection {
+    background-color:rgba($blue, 0.25);
 }

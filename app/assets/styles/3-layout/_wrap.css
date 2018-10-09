@@ -1,11 +1,15 @@
-.container--fluid {
+.wrap {
     width:100%;
-	max-width:1224px;
+	max-width:1024px;
 	margin:0 auto;
 	padding-right:15px;
 	padding-left:15px;
-	
+
 	&--small {
-		max-width:1024px;
+		max-width:36em;
+	}
+	
+	&--full {
+		max-width:1500px;
 	}
 }

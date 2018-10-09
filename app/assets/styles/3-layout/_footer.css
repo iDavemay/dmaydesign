@@ -1,0 +1,14 @@
+.footer {
+    padding:25px 0;
+    text-align: center;
+
+    @mixin atMedium {
+        padding:75px 0 50px 0;
+    }
+
+    &__copyright {
+        margin-top: 50px;
+        font-size: 0.875em;
+        color:#888;
+    }
+}
